@@ -3,6 +3,7 @@
 @extends('layouts.main')
 
 @section('content')
+<img src="/imgs/dotmotors.png" alt="logo" style="width: 150px; height: 50px; position: absolute; top: 10px; left: 50%; transform: translateX(-50%); border-radius: 8px 0px 0px 0px; opacity: 1;">
 <form method="POST" action="{{ route('register') }}">
     @csrf
     <div>
