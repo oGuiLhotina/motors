@@ -9,14 +9,9 @@
     </head>
     <body>
         <div class="container1">
-        <img src="/imgs/dotmotors.png" alt="fundo"> </img>
-        <link rel="stylesheet" src="/css/index.css">
 
         </div>
     </body>
-    <footer>
-        <p> Dot Motors &copy; </p>
-    </footer> 
 </form>
 </html>
 
@@ -24,7 +19,6 @@
 
     .container1 {
         background: linear-gradient(180deg, rgba(4, 6, 22, 0.45) 0%, rgba(4, 6, 22, 0.845312) 50.48%, #040616 68.03%);
-        
     }
     
 </style>    

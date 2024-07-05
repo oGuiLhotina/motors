@@ -1,6 +1,6 @@
 <!-- resources/views/auth/register.blade.php -->
 
-@extends('layouts.app')
+@extends('layouts.main')
 
 @section('content')
 <form method="POST" action="{{ route('register') }}">

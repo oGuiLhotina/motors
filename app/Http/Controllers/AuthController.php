@@ -85,4 +85,8 @@ class AuthController extends Controller
             return back()->withErrors(['error' => $e->getAwsErrorMessage()]);
         }
     }
+
+    public function welcome() {
+        return view ('welcome');
+    }
 }
